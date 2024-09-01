@@ -1,0 +1,56 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('./components/how-it-works.css');
+@import url('./components/footer.css');
+
+/* Utilities */
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.hero-banner{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.container{
+  width: 900px;
+  margin: auto;
+}
+.btn-treehouse{
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  scale: 1;
+  transition: scale 0.2s ease-in-out 30ms
+}
+
+.btn-treehouse:hover{
+  scale: 1.2;
+  background-color: #e5a13e;
+}

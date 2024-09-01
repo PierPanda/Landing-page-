@@ -1,0 +1,37 @@
+/* Your button CSS file */
+.btn-medium{
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-treehouse{
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+
+.btn-yours{
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6e72e2;
+  scale: 1;
+  transition: transform 1s ease;
+}
+.btn-yours:hover {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.35) 0%, rgba(110,114,226,0.4) 50%, rgba(255,255,255,0.35) 100%);
+  animation: slider 25s ease;
+}
+@keyframes slider {
+  to {
+    background-position:20vw;
+  }
+}
